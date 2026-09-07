@@ -29,7 +29,9 @@ To implement a gameplay feature where the player collects ammo pickups in the ga
          * Spawn bullet.
           * Decrease AmmoCount by 1.
 4. Place Ammo in the World
+
 * Drag instances of BP_AmmoPickup into your level from the Content Browser.
+
 * Adjust position, mesh, and pickup range as needed.
 # OUTPUT
 <img width="1918" height="856" alt="image" src="https://github.com/user-attachments/assets/2309d916-4852-4f56-9c8d-8477f7df0f56" />
@@ -37,9 +39,15 @@ To implement a gameplay feature where the player collects ammo pickups in the ga
 <img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/aa3f059d-0165-464d-948e-ea174bb5c031" />
 
 <img width="1134" height="765" alt="image" src="https://github.com/user-attachments/assets/befeb6b9-945c-4aa6-a474-2680dbd41320" />
-# Result
+
+# RESULT:
+
 * The player starts with a limited number of bullets.
+
  * When the player overlaps with an ammo pickup:
+ 
  * The ammo is collected.
+ 
  * The player's AmmoCount increases.
+ 
  * The player can now fire additional bullets based on the updated ammo count.
